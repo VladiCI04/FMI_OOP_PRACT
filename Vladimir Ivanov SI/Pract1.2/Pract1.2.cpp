@@ -1,4 +1,7 @@
 #include <iostream>
+using std::cin;
+using std::cout;
+using std::endl;
 
 struct ComplexNum {
     int x;
@@ -24,7 +27,7 @@ ComplexNum* findSum(const ComplexNum& num1, const ComplexNum& num2) {
 }
 
 void printNumbers(const ComplexNum* result) {
-    std::cout << result->x << ' ' << result->y << std::endl;
+    cout << result->x << ' ' << result->y << endl;
 }
 
 int main()

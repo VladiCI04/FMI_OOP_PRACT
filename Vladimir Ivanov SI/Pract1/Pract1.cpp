@@ -1,4 +1,7 @@
 #include <iostream>
+using std::cin;
+using std::cout;
+using std::endl;
 
 struct Person
 {
@@ -9,21 +12,21 @@ struct Person
 
 void createPerson(Person& p)
 {
-    std::cin >> p.isStudent >> p.age >> p.averageGrade;
+    cin >> p.isStudent >> p.age >> p.averageGrade;
 }
 
 void printStudent(const Person& p)
 {
-    std::cout << p.isStudent << ' ' << p.age << ' ' << p.averageGrade << ' ';
+    cout << p.isStudent << ' ' << p.age << ' ' << p.averageGrade << ' ';
 }
 
 int main()
 {
-    Person* p = new Person();
+    Person p;
 
-    createPerson(*p);
-    printStudent(*p);
+    createPerson(p);
+    printStudent(p);
 
-    Person* personRef = p;
-    std::cout << (*personRef).age << std::endl;
+    Person personRef = p;
+    cout << personRef.age << endl;
 }
