@@ -9,7 +9,8 @@ struct Point {
 };
 
 void readPoint(Point& p) {
-    std::cin >> p.x >> p.y;
+    cout << "Enter X and Y: ";
+    cin >> p.x >> p.y;
 }
 
 void printPoint(const Point& p) {
@@ -18,7 +19,7 @@ void printPoint(const Point& p) {
 
 double findDistanceFromCenter(const Point& p) {
     double sum = p.x + p.y;
-    double distance = sqrt(sum);
+    double distance = sqrt(abs(sum));
 
     return distance;
 }
@@ -33,7 +34,7 @@ double findDistanceBetweenTwoPoints(const Point& p1, const Point& p2) {
     double subsX = p1.x - p2.x;
     double subsY = p1.x - p2.x;
     double sum = square(subsX) + square(subsY);
-    double distance = sqrt(sum);
+    double distance = sqrt(abs(sum));
 
     return distance;
 }
@@ -81,10 +82,10 @@ void printIsInCircle(const short isInCircle) {
 void isPointInCircle(const double radius, const Point& p) {
     short isInCircle;
     
-    if (p.x < radius && p.y < radius) {
+    if (abs(p.x) < radius && abs(p.y) < radius) {
         isInCircle = 1;
     }
-    else if (abs(p.x) == radius || p.y <= radius) {
+    else if (abs(p.x) == radius || abs(p.y) <= radius) {
         isInCircle = 0;
     }
     else {
@@ -96,23 +97,23 @@ void isPointInCircle(const double radius, const Point& p) {
 
 int main()
 {
-    Point* p1 = new Point();
-    Point* p2 = new Point();
+    Point p1;
+    Point p2;
 
-    readPoint(*p1);
-    readPoint(*p2);
+    readPoint(p1);
+    readPoint(p2);
 
-    printPoint(*p1);
-    printPoint(*p2);
+    printPoint(p1);
+    printPoint(p2);
 
-    cout.precision(findDistanceFromCenter(*p1));
-    cout << "Distance from Center: " << findDistanceFromCenter(*p1) << endl;
-    cout << "Distance from Center: " << findDistanceFromCenter(*p2) << endl;
+    cout.precision(findDistanceFromCenter(p1)); // percision delete some symbols after comma(,)
+    cout << "Distance from Center: " << findDistanceFromCenter(p1) << endl;
+    cout << "Distance from Center: " << findDistanceFromCenter(p2) << endl;
 
-    cout << "Distance between two point: " << findDistanceBetweenTwoPoints(*p1, *p2) << endl;
+    cout << "Distance between two point: " << findDistanceBetweenTwoPoints(p1, p2) << endl;
 
-    cout << "Quadrant: " << findQuadrant(*p1) << endl;
-    cout << "Quadrant: " << findQuadrant(*p2) << endl;
+    cout << "Quadrant: " << findQuadrant(p1) << endl;
+    cout << "Quadrant: " << findQuadrant(p2) << endl;
 
     double radius;
     cin >> radius;
