@@ -21,36 +21,35 @@ void readMatrix(int** matrix, const unsigned int rows, const unsigned int cols) 
     }
 }
 
-void transponatedMatrix(int** matrix, const unsigned int rows, const unsigned int cols) {
+int** transponatedMatrix(int** matrix, const unsigned int rows, const unsigned int cols) {
     int** transponateMatrix = new int*[cols];
 
     for (unsigned int row = 0; row < cols; row++) {
         transponateMatrix[row] = new int[rows];
     }
-    
+
     for (unsigned int row = 0; row < rows; row++) {
         for (unsigned int col = 0; col < cols; col++) {
             transponateMatrix[col][row] = matrix[row][col];
         }
     }
 
-    matrix = transponateMatrix;
-
-    deleteMatrix(transponateMatrix, rows);
+    deleteMatrix(matrix, rows);
+    return transponateMatrix;
 }
 
-void swapRows(int** matrix, const unsigned int row, const unsigned int rows) {
-    unsigned int row2 = rows - row;
+void swapRows(int** matrix, const unsigned int row, const unsigned int rows, const unsigned int cols) {
+    unsigned int row2 = rows - row - 1;
     int* rowTemp = matrix[row];
     matrix[row] = matrix[row2];
-    matrix[row2] = rowTemp;
+    matrix[row2] = rowTemp; 
 }
 
-void swapTransponatedMatrixRows(int** matrix, const unsigned int rows) {
+void swapTransponatedMatrixRows(int** matrix, const unsigned int rows, const unsigned int cols) {
     unsigned int copyRows = rows / 2;
 
     for (unsigned int row = 0; row < copyRows; row++) {
-        swapRows(matrix, row, rows);
+        swapRows(matrix, row, rows, cols);
     }
 }
 
@@ -78,12 +77,13 @@ int main()
 
     int** matrix = new int*[cols];
     readMatrix(matrix, rows, cols);
-    
-    transponatedMatrix(matrix, rows, cols);
-    
-    swapTransponatedMatrixRows(matrix, rows);
 
-    printMatrix(matrix, rows, cols);
+    int** transponMatrix = transponatedMatrix(matrix, rows, cols);
+    printMatrix(transponMatrix, cols, rows);
 
-    deleteMatrix(matrix, rows);
+    swapTransponatedMatrixRows(transponMatrix, cols, rows);
+
+    printMatrix(transponMatrix, cols, rows);
+
+    deleteMatrix(transponMatrix, cols);
 }
