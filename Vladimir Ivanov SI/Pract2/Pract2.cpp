@@ -6,7 +6,7 @@ using std::endl;
 
 constexpr char FILE_NAME[] = "result.txt";
 
-void writeToResult(const char* fileName, const double sum, const double multiplied) {
+void writeToResult(const char* fileName, const int num1, const int num2, const int num3) {
 	if (!fileName) {
 		return;
 	}
@@ -16,57 +16,73 @@ void writeToResult(const char* fileName, const double sum, const double multipli
 		return;
 	}
 
-	out << sum << std::endl;
-	out << multiplied << std::endl;
+	int sum = num1 + num2 + num3;
+	int multiplied = num1 * num2 * num3;
+
+	cout << endl;
+	cout << "Sum: " << sum << endl;
+	cout << "Multiplied: " << multiplied << endl;
+
+	out << sum << endl;
+	out << multiplied << endl;
 
 	out.close();
 }
 
-void readStudentsFromFile(const char* fileName, size_t& length) {
+int createNumFromStr(char* sum) {
+	int num = 0;
+
+	while (*sum) {
+		num = (num * 10) + (*sum - '0');
+		sum++;
+	}
+
+	return num;
+}
+
+void readFromResult(const char* fileName) {
 	if (!fileName) {
-		length = 0;
 		return;
 	}
 
 	std::ifstream in(fileName);
 	if (!in.is_open()) {
-		length = 0;
 		return;
 	}
 
-	in >> length;
-	if (length == 0) {
-		return;
-	}
+	char* sum = new char[10];
+	in.getline(sum, 10, '\n');
+	int intSum = createNumFromStr(sum);
 
-	char* sum;
-	in.getline(sum, 10);
-
-	char* multiplied;
-	in.getline(multiplied, 10);
+	char* multiplied = new char[10];
+	in.getline(multiplied, 10, '\n');
+	int intMultiplied = createNumFromStr(multiplied);
 
 	int differnce;
-	differnce = (int)multiplied - (int)sum;
+	differnce = intMultiplied - intSum;
 
-	cout << differnce;
+	cout << "Difference: " << differnce << endl;
 
+	delete[] sum;
+	delete[] multiplied;
 	in.close();
+}
 
 int main()
 {
-    double num1;
+	cout << "Enter number 1: ";
+    int num1;
 	cin >> num1;
 
-	double num2;
+	cout << "Enter number 2: ";
+	int num2;
 	cin >> num2;
 
-	double num3;
+	cout << "Enter number 3: ";
+	int num3;
 	cin >> num3;
 
-	double sum = num1 + num2 + num3;
-	double multiplied = num1 * num2 * num3;
+	writeToResult(FILE_NAME, num1, num2, num3);
 
-	writeToResult(FILE_NAME, sum, multiplied);
-
-	readFromResult();
+	readFromResult(FILE_NAME);
 }
