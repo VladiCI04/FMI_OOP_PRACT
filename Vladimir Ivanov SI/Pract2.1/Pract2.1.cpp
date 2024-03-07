@@ -45,6 +45,16 @@ void concatArrays(const char* file1, const char* file2, char* finalFile) {
 	}
 }
 
+void changeSpacesWithComa(char* finalFile) {
+	while (*finalFile) {
+		if (*finalFile == ' ') {
+			*finalFile = ',';
+		}
+
+		finalFile++;
+	}
+}
+
 void concatFiles(const char* fileName1, const char* fileName2) {
 	if (!fileName1 || !fileName2) {
 		return;
@@ -82,6 +92,10 @@ void concatFiles(const char* fileName1, const char* fileName2) {
 	char outFileName[] = "outFile.txt";
 	writeFile(outFileName, finalFile, finalFileSize);
 	
+	changeSpacesWithComa(finalFile);
+	cout << "'" << finalFile << "' is written in 'outFile.txt'." << endl;
+	writeFile(outFileName, finalFile, finalFileSize);
+
 	delete[] file1;
 	delete[] file2;
 	delete[] finalFile;
