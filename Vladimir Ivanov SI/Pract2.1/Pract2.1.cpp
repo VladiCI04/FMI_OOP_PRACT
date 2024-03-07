@@ -32,6 +32,19 @@ void writeFile(const char* fileName, const char* finalFile, const size_t finalFi
 	out.close();
 }
 
+void concatArrays(const char* file1, const char* file2, char* finalFile) {
+	unsigned int index = 0;
+	while (*file1) {
+		finalFile[index++] = *file1;
+		file1++;
+	}
+
+	while (*file2) {
+		finalFile[index++] = *file2;
+		file2++;
+	}
+}
+
 void concatFiles(const char* fileName1, const char* fileName2) {
 	if (!fileName1 || !fileName2) {
 		return;
@@ -62,10 +75,9 @@ void concatFiles(const char* fileName1, const char* fileName2) {
 
 	size_t finalFileSize = fileSize1 + fileSize2;
 	char* finalFile = new char[finalFileSize + 1];
-	strcpy(finalFile, file1);
-	finalFile = strcat(file1, file2);
+	concatArrays(file1, file2, finalFile);
 	finalFile[finalFileSize] = '\0';
-	cout << finalFile << endl;
+	cout << "'" << finalFile << "' is written in 'outFile.txt'." << endl;
 
 	char outFileName[] = "outFile.txt";
 	writeFile(outFileName, finalFile, finalFileSize);
