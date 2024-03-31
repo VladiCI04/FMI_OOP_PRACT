@@ -1,0 +1,258 @@
+﻿  Pract2.3.cpp
+C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(50,18): error C2079: 'ss' uses undefined class 'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(50,20): error C2440: 'initializing': cannot convert from 'const char *' to 'int'
+  C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(50,20):
+  There is no context in which this conversion is possible
+  
+C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(85,13): error C2679: binary '<<': no operator found which takes a right-hand operand of type 'const User' (or there is no acceptable conversion)
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(480,39):
+  could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(448,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(430,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(412,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(394,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(376,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(358,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(340,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(322,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(303,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(277,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(258,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(224,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(206,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(200,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(194,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(189,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\xstring(5193,32):
+  or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(85,13):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from 'const User'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\memory(1978,32):
+  or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(85,13):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)': could not deduce template argument for 'const std::shared_ptr<_Ty> &' from 'const User'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\memory(3629,32):
+  or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(85,13):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)': could not deduce template argument for 'const std::unique_ptr<_Ty2,_Dx2> &' from 'const User'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(686,32):
+  or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(85,42):
+  	'initializing': cannot convert from 'const User' to 'const char *'
+  		C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(85,42):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(730,32):
+  or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(85,42):
+  	'initializing': cannot convert from 'const User' to 'char'
+  		C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(85,42):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(766,31):
+  or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(85,42):
+  	'initializing': cannot convert from 'const User' to 'const char *'
+  		C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(85,42):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(811,31):
+  or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(85,42):
+  	'initializing': cannot convert from 'const User' to 'char'
+  		C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(85,42):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(849,32):
+  or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(85,13):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)': could not deduce template argument for 'const _Elem *' from 'const User'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(892,32):
+  or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(85,13):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': template parameter '_Elem' is ambiguous
+  		C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(85,13):
+  		could be 'User'
+  		C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(85,13):
+  		or       'char'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(85,13):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': could not deduce template argument for '_Elem' from 'const User'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(928,31):
+  or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(85,42):
+  	'initializing': cannot convert from 'const User' to 'const signed char *'
+  		C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(85,42):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(934,31):
+  or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(85,42):
+  	'initializing': cannot convert from 'const User' to 'signed char'
+  		C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(85,42):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(939,31):
+  or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(85,42):
+  	'initializing': cannot convert from 'const User' to 'const unsigned char *'
+  		C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(85,42):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(945,31):
+  or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(85,42):
+  	'initializing': cannot convert from 'const User' to 'unsigned char'
+  		C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(85,42):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(1003,9):
+  or       '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(85,13):
+  	'_Ostr &&std::operator <<(_Ostr &&,const _Ty &)': could not deduce template argument for '__formal'
+  		C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(1002,103):
+  		'<template-parameter>': you cannot create a pointer to a reference
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(1080,32):
+  or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(85,42):
+  	'initializing': cannot convert from 'const User' to 'const std::error_code &'
+  		C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(85,42):
+  		Reason: cannot convert from 'const User' to 'const std::error_code'
+  		C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(85,42):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(85,13):
+  while trying to match the argument list '(std::ostream, const User)'
+  
+C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(94,9): error C2679: binary '<<': no operator found which takes a right-hand operand of type 'const User' (or there is no acceptable conversion)
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(480,39):
+  could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(448,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(430,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(412,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(394,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(376,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(358,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(340,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(322,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(303,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(277,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(258,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(224,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(206,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(200,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(194,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(189,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\xstring(5193,32):
+  or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(94,9):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from 'const User'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\memory(1978,32):
+  or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(94,9):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)': could not deduce template argument for 'const std::shared_ptr<_Ty> &' from 'const User'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\memory(3629,32):
+  or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(94,9):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)': could not deduce template argument for 'const std::unique_ptr<_Ty2,_Dx2> &' from 'const User'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(686,32):
+  or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(94,27):
+  	'initializing': cannot convert from 'const User' to 'const char *'
+  		C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(94,27):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(730,32):
+  or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(94,27):
+  	'initializing': cannot convert from 'const User' to 'char'
+  		C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(94,27):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(766,31):
+  or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(94,27):
+  	'initializing': cannot convert from 'const User' to 'const char *'
+  		C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(94,27):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(811,31):
+  or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(94,27):
+  	'initializing': cannot convert from 'const User' to 'char'
+  		C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(94,27):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(849,32):
+  or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(94,9):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)': could not deduce template argument for 'const _Elem *' from 'const User'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(892,32):
+  or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(94,9):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': template parameter '_Elem' is ambiguous
+  		C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(94,9):
+  		could be 'User'
+  		C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(94,9):
+  		or       'char'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(94,9):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': could not deduce template argument for '_Elem' from 'const User'
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(928,31):
+  or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(94,27):
+  	'initializing': cannot convert from 'const User' to 'const signed char *'
+  		C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(94,27):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(934,31):
+  or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(94,27):
+  	'initializing': cannot convert from 'const User' to 'signed char'
+  		C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(94,27):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(939,31):
+  or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(94,27):
+  	'initializing': cannot convert from 'const User' to 'const unsigned char *'
+  		C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(94,27):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(945,31):
+  or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(94,27):
+  	'initializing': cannot convert from 'const User' to 'unsigned char'
+  		C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(94,27):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(1003,9):
+  or       '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(94,9):
+  	'_Ostr &&std::operator <<(_Ostr &&,const _Ty &)': could not deduce template argument for '__formal'
+  		C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(1002,103):
+  		'<template-parameter>': you cannot create a pointer to a reference
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\ostream(1080,32):
+  or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)'
+  	C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(94,27):
+  	'initializing': cannot convert from 'const User' to 'const std::error_code &'
+  		C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(94,27):
+  		Reason: cannot convert from 'const User' to 'const std::error_code'
+  		C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(94,27):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Users\Vladi\OneDrive - Software University (SoftUni)\Desktop\GitHub\FMI_OOP_PRACT\Vladimir Ivanov SI\Pract2.3\Pract2.3.cpp(94,9):
+  while trying to match the argument list '(std::ostream, const User)'
+  
