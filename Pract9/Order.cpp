@@ -2,54 +2,57 @@
 #pragma warning (disable: 4996)
 
 void Order::free() {
-	delete[] this->restourantName;
-	this->restourantName = nullptr;
+	delete[] restourantName;
+	restourantName = nullptr;
 
-	this->productsCount = 0;
+	productsCount = 0;
 
-	this->capacity = 2;
+	capacity = 2;
 
-	delete[] this->productsList;
-	this->productsList = nullptr;
+
+	delete[] productsList;
+	productsList = nullptr;
 }
 void Order::copyFrom(const Order& other) {
-	this->restourantName = new char[strlen(other.restourantName) + 1];
-	strcpy(this->restourantName, other.restourantName);
+	restourantName = new char[strlen(other.restourantName) + 1];
+	strcpy(restourantName, other.restourantName);
 
-	this->productsCount = other.productsCount;
+	productsCount = other.productsCount;
 
-	this->capacity = other.capacity;
+	capacity = other.capacity;
 
-	this->productsList = new String[other.capacity];
+	productsList = new String[other.capacity];
 	for (unsigned int index = 0; index < other.productsCount; index++) {
-		this->productsList[index] = other.productsList[index];
+		productsList[index] = other.productsList[index];
 	}
 }
 void Order::moveFrom(Order&& other) {
-	this->restourantName = other.restourantName;
+	restourantName = other.restourantName;
 	other.restourantName = nullptr;
 
-	this->productsCount = other.productsCount;
+	productsCount = other.productsCount;
 
-	this->capacity = other.capacity;
+	capacity = other.capacity;
 
-	this->productsList = other.productsList;
+	productsList = other.productsList;
 	other.productsList = nullptr;
 }
 
 Order::Order() = default;
-
-Order::Order(const char* restourantName, const unsigned int productsCount, const unsigned int capacity, const String* productsList) : productsCount(productsCount), capacity(capacity) {
-	this->setRestourantName(restourantName);
-	this->setProductsList(productsList);
+Order::Order(const char* restourantName, const unsigned int productsCount, const unsigned int capacity, String* productsList) : productsCount(productsCount), capacity(capacity) {
+	setRestourantName(restourantName);
+	setProductsList(productsList);
 }
-
 Order::Order(const Order& other) {
 	if (this != &other) {
 		copyFrom(other);
 	}
 }
-
+Order::Order(Order&& other) noexcept {
+	if (this != &other) {
+		moveFrom(std::move(other));
+	}
+}
 Order& Order::operator=(const Order& other) {
 	if (this != &other) {
 		free();
@@ -58,39 +61,35 @@ Order& Order::operator=(const Order& other) {
 
 	return *this;
 }
+Order& Order::operator=(Order&& other) noexcept {
+	if (this != &other) {
+		free();
+		moveFrom(std::move(other));
+	}
 
+	return *this;
+}
 Order::~Order() {
 	free();
 }
 
-Order::Order(Order&& other) noexcept {
-
-}
-
-Order& Order::operator=(Order&& other) noexcept {
-	
-}
-
 const char* Order::getRestourantName() const {
-	return nullptr;
+	return restourantName;
 }
-
 void Order::setRestourantName(const char* restourantName) {
-
+	strcpy(this->restourantName, restourantName);
 }
-
 const String* Order::getProductsList() const {
-	return nullptr;
+	return productsList;
 }
-
-void Order::setProductsList(const String* productsList) {
-
+void Order::setProductsList(String* productsList) {
+	this->productsList = productsList;
 }
 
 void Order::addProduct(const String& product) {
-
+	productsList[productsCount] = product;
+	productsCount++;
 }
-
 unsigned int Order::timeForOrder() const {
 	return 0;
 }
