@@ -1,12 +1,13 @@
 #pragma once
-#include "Forms.h"
-#include "String.h"
-#include <iostream>
+#include "Form.h"
+#include "MyString.h"
 
-class Label : public Forms {
+class Label : public Form {
 public:
+	Label();
 	void print() const override;
-	void setDataDialog(MyString labelText) const;
+	Form* clone() const override;
+	void setDataDialog(MyString labelText);
 
 private:
 	MyString labelText;

@@ -128,19 +128,21 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CheckBox.cpp" />
-    <ClCompile Include="Forms.cpp" />
+    <ClCompile Include="Form.cpp" />
+    <ClCompile Include="FormFactory.cpp" />
     <ClCompile Include="Label.cpp" />
     <ClCompile Include="Pract12.cpp" />
     <ClCompile Include="RadioButton.cpp" />
-    <ClCompile Include="String.cpp" />
+    <ClCompile Include="MyString.cpp" />
     <ClCompile Include="WindowsForms.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CheckBox.h" />
-    <ClInclude Include="Forms.h" />
+    <ClInclude Include="Form.h" />
+    <ClInclude Include="FormFactory.h" />
     <ClInclude Include="Label.h" />
     <ClInclude Include="RadioButton.h" />
-    <ClInclude Include="String.h" />
+    <ClInclude Include="MyString.h" />
     <ClInclude Include="WindowsForms.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

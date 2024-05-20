@@ -18,7 +18,7 @@
     <ClCompile Include="Pract12.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="String.cpp">
+    <ClCompile Include="MyString.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Label.cpp">
@@ -33,12 +33,15 @@
     <ClCompile Include="WindowsForms.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Forms.cpp">
+    <ClCompile Include="Form.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FormFactory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="String.h">
+    <ClInclude Include="MyString.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Label.h">
@@ -53,7 +56,10 @@
     <ClInclude Include="WindowsForms.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Forms.h">
+    <ClInclude Include="Form.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FormFactory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,11 +1,21 @@
 #include "Label.h"
 
+Label::Label() : Form(FormType::Label)
+{
+	labelText = nullptr;
+}
+
 void Label::print() const
 {
 	std::cout << "Label";
 }
 
-void Label::setDataDialog(MyString labelText) const
+Form* Label::clone() const
 {
-	this->labelText = labelText;
+	return new Label(*this);
+}
+
+void Label::setDataDialog(MyString labelText) 
+{
+	this->labelText = std::move(labelText);
 }
